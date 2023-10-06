@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cv {
+	width: 100%;
+	max-width: 1000px;
+	min-height: 100px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.left {
+	position: initial;
+	background-color: #9AC2CF;
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: #DDB892;
+	padding: 20px;
+
+}
+
